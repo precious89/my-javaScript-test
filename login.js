@@ -1,7 +1,7 @@
 function Submit(){
 
  {
-    alert("Email and password incorrect");
+    alert("Email or password incorrect");
     }
 
 }
