@@ -7,7 +7,7 @@ function Submit(){
 
 }
  const text= text (document.getElementById("b").value);
- const unclock= unclock(document.getElementById("b").value)
+ const pin= pin(document.getElementById("b").value)
 
  if (text  == "") {
     alert("Email")
@@ -15,4 +15,13 @@ function Submit(){
  }
 
     document.getElementById('response').innerHTML = text;
+
+{
+    const text= text (document.getElementById("b").value);
+    const pin= pin(document.getElementById("b").value)
+   
+    if (pin  == "") {
+       alert("pin")
+       return;   
+}
  
