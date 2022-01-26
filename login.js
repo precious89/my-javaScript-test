@@ -5,3 +5,10 @@ function Submit(){
     }
 
 }
+ const text= text (document.getElementById("b").value);
+ const unclock= unclock(document.getElementById("b").value)
+
+ if (text  == "") {
+
+    document.getElementById('response').innerHTML = text;
+ }
