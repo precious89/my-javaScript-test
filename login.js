@@ -2,6 +2,7 @@ function Submit(){
 
  {
     alert("Email or password incorrect");
+    
     }
 
 }
@@ -9,6 +10,9 @@ function Submit(){
  const unclock= unclock(document.getElementById("b").value)
 
  if (text  == "") {
+    alert("Email")
+    return;
+ }
 
     document.getElementById('response').innerHTML = text;
- }
+ 
