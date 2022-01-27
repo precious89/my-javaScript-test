@@ -1,28 +1,27 @@
-function Submit(){
+function Submit() {
 
- {
-    alert("Email or password incorrect");
-    
-    }
+   {
+      alert("Email or password incorrect");
+
+   }
 
 }
- const text= text (document.getElementById("b").value);
- const pin= pin(document.getElementById("b").value)
 
- if (text  == "") {
-    alert("Email")
-    return;
- }
+const text = document.getElementById('a').value;
+const pin = document.getElementById('b').value;
 
-    document.getElementById('response').innerHTML = text;
+if (text == "") {
+   alert("Email");
+}
+
+document.getElementById('a').innerHTML = text;
 
 {
-    const text= text (document.getElementById("b").value);
-    const pin= pin(document.getElementById("b").value)
-   
-    if (pin  == "") {
-       alert("pin")
-       return;   
+   const text =document.getElementById('a').value;
+   const pin =document.getElementById('b').value;
+
+   if (pin == "") {
+      alert("pin")
+   }
+   document.getElementById('b').innerHTML = pin;
 }
-}
- 
