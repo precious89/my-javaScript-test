@@ -5,3 +5,7 @@ a {
     text-align: center;
     margin-left: 50%;
    }
+   input{
+       width: 32;
+       height: 45;
+   }
