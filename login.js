@@ -1,27 +1,28 @@
+var a = [];
+var b = [];
+
 function Submit() {
 
-   {
-      alert("Email or password incorrect");
+   const a = document.getElementById("name").value;
+   const b = document.getElementById("pin").value;
 
+   if (a == "") {
+      alert("Email cannot be empty");
+      return;
    }
 
-}
-
-const text = document.getElementById('a').value;
-const pin = document.getElementById('b').value;
-
-if (text == "") {
-   alert("Email");
-}
-
-document.getElementById('a').innerHTML = text;
-
-{
-   const text =document.getElementById('a').value;
-   const pin =document.getElementById('b').value;
-
-   if (pin == "") {
-      alert("pin")
+   if (b == "") {
+      alert("Password cannot be empty");
+      return;
    }
-   document.getElementById('b').innerHTML = pin;
+
+   if (a == "user@gmail.com" && b == "mypassword") {
+      console.log(a, b);
+      location.href = "./home.html";
+   }
+
+   else {
+      alert("email and password is incorrect");
+   }
+
 }
